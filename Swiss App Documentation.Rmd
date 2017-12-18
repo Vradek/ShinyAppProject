@@ -1,0 +1,18 @@
+---
+title: "Swiss App Documentation"
+author: "Andrew Martinez-Novoa"
+date: "December 17, 2017"
+output: html_document
+---
+
+## What Does it Do?
+
+This app is 2-fold using the swiss data that comes standard in R. 
+
+First it creates a linear model for fertility using whichever variable the user decides to add to the model using the checkboxes (Agriculture,Examination, Education, or Catholic).
+
+The second thing it does is show a summary of the model using the variable chosen.
+
+## How to Use it
+
+Click on the checkbox you want to include in your linear model for fertility and click "calculate". The result will be a residuals vs fitted values plot. The summary of the linear model can then be viewed below the plot.
